@@ -1,3 +1,17 @@
+## Dataset Reference
+
+The dataset used in this project is obtained from the following public repository:
+
+- **Poqemon QoE Dataset**  
+  Source: :contentReference[oaicite:0]{index=0}  
+  URL: https://github.com/Lamyne/Poqemon-QoE-Dataset  
+  Author/Maintainer: Lamyne
+
+This dataset provides Quality of Experience (QoE)–related measurements, including Quality of Data (QoD), Quality of Application (QoA), and Quality of Flow (QoF) features, along with the corresponding Mean Opinion Score (MOS).  
+It is used as the primary data source for preprocessing, exploratory analysis, and supervised learning–based MOS prediction in this project.
+
+If you use this project or build upon it, please consider citing or acknowledging the original dataset repository to credit the dataset authors for their work.
+
 ## Project Workflow
 
 The analysis is conducted in three main stages:
@@ -18,9 +32,9 @@ The analysis is conducted in three main stages:
    The comparison highlights the strengths and limitations of different modeling approaches for MOS prediction on tabular QoE data.
 
 4. **The early results (`old_version/old_MOS_predictor.py`)**
-  This script contains the initial baseline implementation of MOS prediction used at the early stage of the project. It trains a simple predictive model using a limited set of QoE-related features and outputs basic MOS prediction results.
-
-  The file is kept in the `old_version/` directory to preserve the original approach for comparison with later, improved versions. It serves as a reference to illustrate how the modelling pipeline evolved from a straightforward baseline toward a more robust and systematic solution through improved preprocessing, feature handling, and model selection.
+   This script contains the initial baseline implementation of MOS prediction used at the early stage of the project. It trains a simple predictive model using a limited set of QoE-related features and outputs basic MOS prediction results.
+   
+   The file is kept in the `old_version/` directory to preserve the original approach for comparison with later, improved versions. It serves as a reference to illustrate how the modelling pipeline evolved from a straightforward baseline toward a more robust and systematic solution through improved preprocessing, feature handling, and model selection.
 
 
 This workflow ensures data quality verification precedes exploration, and exploration results directly inform the predictive modeling stage.
