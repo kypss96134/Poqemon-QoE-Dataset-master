@@ -14,7 +14,9 @@ If you use this project or build upon it, please consider citing or acknowledgin
 
 ## Project Workflow
 
-The analysis is conducted in three main stages:
+Before running any analysis scripts, create and activate a virtual environment, then install the packages listed in requirements.txt.
+
+The analysis is conducted in three main stages, you can follow the steps listed below:
 
 1. **Data Preprocessing (`data_preprocessing.py`)**  
    The dataset is inspected for missing values. A missing-value report is generated to compute the missing count and missing rate for each attribute.  
